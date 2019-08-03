@@ -18,4 +18,10 @@ public class SpringAppApplication {
 	public String hello() {
 		return "Hello World!";
 	}
+	
+	
+	@GetMapping("/hello")
+	public String helloSpring() {
+		return "Hello Spring!";
+	}
 }
